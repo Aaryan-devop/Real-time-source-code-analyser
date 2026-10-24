@@ -1,0 +1,137 @@
+[
+  {
+    "package": "requests",
+    "vulnerable_range": "<2.31.0",
+    "fixed_version": "2.31.0",
+    "severity": "medium",
+    "advisory_id": "CVE-2023-32681",
+    "cwe": "CWE-200",
+    "note": "Unintended leak of Proxy-Authorization header to destination servers."
+  },
+  {
+    "package": "flask",
+    "vulnerable_range": "<2.3.2",
+    "fixed_version": "2.3.2",
+    "severity": "high",
+    "advisory_id": "CVE-2023-30861",
+    "cwe": "CWE-539",
+    "note": "Cookie can be set on parent domain, leading to session fixation."
+  },
+  {
+    "package": "django",
+    "vulnerable_range": "<4.2.4",
+    "fixed_version": "4.2.4",
+    "severity": "high",
+    "advisory_id": "CVE-2023-41164",
+    "cwe": "CWE-400",
+    "note": "Denial-of-service via large file uploads."
+  },
+  {
+    "package": "urllib3",
+    "vulnerable_range": "<2.0.6",
+    "fixed_version": "2.0.6",
+    "severity": "medium",
+    "advisory_id": "CVE-2023-43804",
+    "cwe": "CWE-200",
+    "note": "Cookie header not stripped during cross-origin redirects."
+  },
+  {
+    "package": "pillow",
+    "vulnerable_range": "<10.0.1",
+    "fixed_version": "10.0.1",
+    "severity": "high",
+    "advisory_id": "CVE-2023-44271",
+    "cwe": "CWE-400",
+    "note": "Denial of service via uncontrolled resource consumption."
+  },
+  {
+    "package": "cryptography",
+    "vulnerable_range": "<41.0.4",
+    "fixed_version": "41.0.4",
+    "severity": "high",
+    "advisory_id": "CVE-2023-49083",
+    "cwe": "CWE-476",
+    "note": "NULL pointer dereference when loading certain PKCS7 certificates."
+  },
+  {
+    "package": "jinja2",
+    "vulnerable_range": "<3.1.3",
+    "fixed_version": "3.1.3",
+    "severity": "medium",
+    "advisory_id": "CVE-2024-22195",
+    "cwe": "CWE-79",
+    "note": "XSS via xmlattr filter with keys containing non-attribute characters."
+  },
+  {
+    "package": "sqlparse",
+    "vulnerable_range": "<0.5.0",
+    "fixed_version": "0.5.0",
+    "severity": "high",
+    "advisory_id": "CVE-2024-4340",
+    "cwe": "CWE-400",
+    "note": "Denial of service via deeply nested expressions."
+  },
+  {
+    "package": "pyyaml",
+    "vulnerable_range": "<6.0.1",
+    "fixed_version": "6.0.1",
+    "severity": "high",
+    "advisory_id": "CVE-2020-14343",
+    "cwe": "CWE-502",
+    "note": "Arbitrary code execution via yaml.load without SafeLoader."
+  },
+  {
+    "package": "numpy",
+    "vulnerable_range": "<1.22.0",
+    "fixed_version": "1.22.0",
+    "severity": "critical",
+    "advisory_id": "CVE-2021-41495",
+    "cwe": "CWE-120",
+    "note": "Buffer overflow in array operations."
+  },
+  {
+    "package": "setuptools",
+    "vulnerable_range": "<65.5.1",
+    "fixed_version": "65.5.1",
+    "severity": "medium",
+    "advisory_id": "CVE-2022-40897",
+    "cwe": "CWE-400",
+    "note": "ReDoS via crafted HTML in package_index."
+  },
+  {
+    "package": "express",
+    "vulnerable_range": "<4.19.2",
+    "fixed_version": "4.19.2",
+    "severity": "medium",
+    "advisory_id": "CVE-2024-29041",
+    "cwe": "CWE-601",
+    "note": "Open redirect via res.location() with malicious URL."
+  },
+  {
+    "package": "lodash",
+    "vulnerable_range": "<4.17.21",
+    "fixed_version": "4.17.21",
+    "severity": "high",
+    "advisory_id": "CVE-2021-23337",
+    "cwe": "CWE-77",
+    "note": "Command injection via template function."
+  },
+  {
+    "package": "axios",
+    "vulnerable_range": "<1.6.0",
+    "fixed_version": "1.6.0",
+    "severity": "high",
+    "advisory_id": "CVE-2023-45857",
+    "cwe": "CWE-352",
+    "note": "CSRF via leaked confidential cookies."
+  },
+  {
+    "package": "werkzeug",
+    "vulnerable_range": "<3.0.3",
+    "fixed_version": "3.0.3",
+    "severity": "high",
+    "advisory_id": "CVE-2024-34069",
+    "cwe": "CWE-352",
+    "note": "Possible remote code execution via debugger PIN bypass."
+  }
+]
