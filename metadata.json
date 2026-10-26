@@ -1,0 +1,6 @@
+{
+  "name": "CodePulse",
+  "description": "Real-time incremental source code health dashboard with static security, complexity, smell, secret redaction, duplicate block, and offline dependency analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
